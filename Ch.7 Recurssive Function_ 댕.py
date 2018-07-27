@@ -156,13 +156,12 @@ def f19(lst1, lst2):
 ---------------------------------------------------
 이건 왜..오류가...
 def f19(lst1,lst2):
-    lst =[]
     if lst1 ==[] and lst2 ==[]:
         return lst
     if lst1[0]>=lst2[0]:
-        return lst.append(lst2[0]+f19(lst1,lst2[1:]))
+        return [lst2[0]]+f19(lst1,lst2[1:]))
     else:
-        return lst.append(lst1[0]+f19(lst1[1:],lst2))
+        return [lst1[0]]+f19(lst1[1:],lst2))
 
 #20
 def f20(lst):

@@ -28,6 +28,7 @@ def num_in_french(num):
         else :
             return tens_list[digit(num,2)] +'-'+ones_list[digit(num,1)]
 
+       
 def print_French(lo,hi):
     for i in range(lo,hi+1):
         print(i,num_in_french(i))

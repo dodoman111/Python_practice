@@ -94,7 +94,7 @@ def is_reverse(string1,string2):
         return is_reverse(string1[1:],string2[:-1]) 
     else: 
         return False
-
+        
 #5
 def sort_repeated(L):
     a = set()

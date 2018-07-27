@@ -123,7 +123,7 @@ def make_Dict_number(lst):          #구버전
             count = 1
     return s
 
-----------get()쓰지 않은 버전----------
+#----------get()쓰지 않은 버전----------
 def mostFrequent(lst):
     a =[]
     d = make_Dict_number(lst)
@@ -133,7 +133,7 @@ def mostFrequent(lst):
             a.append(i)
     print(*a)
     
--------------get() 쓴 버전-------------
+#-------------get() 쓴 버전-------------
 def mostFrequent(lst):
     a =[]
     d = make_Dict_number(lst)

@@ -8,14 +8,12 @@ def count_matches(some_list,value):
         return count_matches(some_list[1:],value)
 
 
-
 #2
 def double_each(some_list):
     a =[]
     if some_list ==[]:
         return a
     return a + [some_list[0]]*2 + double_each(some_list[1:])
-
 
 
 #3

@@ -16,6 +16,7 @@ def f2(n):
 		   count = count+1
 	   print("")
 
+
 #3
 def f3(n):
         resul =[]

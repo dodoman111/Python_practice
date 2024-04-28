@@ -122,4 +122,5 @@ for i in range(1,100):
 		print(i)
 end = time.clock()
 duration = end-start
+
 print(duration)
